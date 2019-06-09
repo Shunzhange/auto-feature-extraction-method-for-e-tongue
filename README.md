@@ -23,7 +23,7 @@ python main.py
 ## Testing on saved model
 python inference.py 
 
-# experiment results 
+## experiment results 
 
 In terms of Hamming window, the best average classification accuracy 99.8% is acquired in Figure 8(b) when the window size is 128.
 
