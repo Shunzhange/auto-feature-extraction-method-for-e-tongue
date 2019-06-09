@@ -23,4 +23,5 @@ python main.py
 # Testing on saved model
 python inference.py 
 
-# 
+# experiment results 
+![image](https://github.com/Shunzhange/auto-feature-extraction-method-for-e-tongue/blob/master/figure/results.jpg)
