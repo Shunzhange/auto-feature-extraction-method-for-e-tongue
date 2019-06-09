@@ -7,21 +7,24 @@ The key idea behind our method is to transform the time series into time-frequen
 
 ![image](https://github.com/Shunzhange/auto-feature-extraction-method-for-e-tongue/blob/master/figure/feature%20extraction.jpg)
 
-# It is implemented in pytorch. Please follow the instructions (Anaconda with python3.6 installation is recommended)
+## It is implemented in pytorch. Please follow the instructions (Anaconda with python3.6 installation is recommended)
 pytroch==0.4.0
 torchvision==0.1.8
 pillow==4.2.1
 
-# Other libraries
+## Other libraries
 CUDA Version == 9.0.176
 Cudnn Version == 7.4.1
 Ubuntu 14.04 or 16.04
 
-# traing the model
+## traing the model
 python main.py
 
-# Testing on saved model
+## Testing on saved model
 python inference.py 
 
 # experiment results 
+
+In terms of Hamming window, the best average classification accuracy 99.8% is acquired in Figure 8(b) when the window size is 128.
+
 ![image](https://github.com/Shunzhange/auto-feature-extraction-method-for-e-tongue/blob/master/figure/results.jpg)
